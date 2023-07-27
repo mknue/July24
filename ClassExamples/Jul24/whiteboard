@@ -1,0 +1,40 @@
+
+/ -> always returns float
+// -> floored division; truncate off the decimal numbers
+
+
+x = 10
+x = x + 1
+x += 1
+
+** -> exponents -> 2**4
+pow(x, raiseToY)
+
+% -> mod, modulo, modulus -> remainder of long division
+5%3 => 2
+
+fruits = ['apple', 'cherry', 'orange', 'kiwi', 'banana', 'pear', 'fig']
+
+people = [
+    ('Melinda', 'Gates', 'Gates Foundation'),
+    ('Steve', 'Jobs', 'Apple'),
+    ('Larry', 'Wall', 'Perl'),
+    ('Paul', 'Allen', 'Microsoft'),
+    ('Larry', 'Ellison', 'Oracle'),
+    ('Bill', 'Gates', 'Microsoft'),
+    ('Mark', 'Zuckerberg', 'Facebook'),
+    ('Sergey', 'Brin', 'Google'),
+    ('Larry', 'Page', 'Google'),
+    ('Linus', 'Torvalds', 'Linux'),
+]
+
+
+
+
+
+
+
+
+
+
+

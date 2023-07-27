@@ -1,0 +1,25 @@
+
+file = open("pathToFile", "mode")
+
+r => read text
+'' => read text
+rb => read binary
+
+w => write text
+wb => write binary
+a => append
+x => create new, raise error if already present
+
+file = open("pathToFile", 'r')
+...
+
+file.close()
+
+airports = {'IAD': 'Dulles', 'SEA': 'Seattle-Tacoma',  # <2>
+            'RDU': 'Raleigh-Durham', 'LAX': 'Los Angeles'}
+
+d2 = {}
+d3 = dict(red=5, blue=10, yellow=1, brown=5, black=12)  # <3>
+
+pairs = [('Washington', 'Olympia'), ('Virginia', 'Richmond'),
+         ('Oregon', 'Salem'), ('California', 'Sacramento')]
